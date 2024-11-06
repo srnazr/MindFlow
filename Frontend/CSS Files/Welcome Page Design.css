@@ -1,0 +1,9 @@
+/*Background*/
+body{
+    background-image: url("/Frontend/Image Assets/Welcome Page/Welcome Page Background.svg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+

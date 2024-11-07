@@ -1,9 +1,32 @@
 /*Background*/
 body{
-    background-image: url("/Frontend/Image Assets/Welcome Page/Welcome Page Background.svg"); 
+    background-color: black; 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
+.gradient-background{
+    position: relative;
+}
+
+.gradient-background .img-1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    float: right;
+    width: auto;
+    height: 100vh;
+    margin: 0;
+}
+
+.gradient-background .img-2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    float: left;
+    width: auto;
+    height: 50vh;
+    margin: 0;
+}

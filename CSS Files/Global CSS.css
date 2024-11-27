@@ -1,0 +1,22 @@
+/*COLOR PALETTE*/
+:root {
+    --olive-green: rgb(106, 94, 51);
+    --rust: rgb(173, 93, 47);
+    --light-gray: rgb(200, 196, 182);
+    --dark-blue: rgb(57, 74, 92);
+    --off-white: rgb(232, 228, 212);
+    --charcoal-gray: rgb(77, 77, 77);
+    --teal-green: rgb(61, 92, 72);
+    --brown: rgb(120, 66, 38);
+    --deep-teal: rgb(33, 63, 52);
+    --beige: rgb(204, 193, 165);
+    --pale-teal: rgb(169, 188, 176);
+    --deep-brown: rgb(84, 43, 36);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+  }
+
+html, body{
+    margin: 0;
+    padding: 0;
+}

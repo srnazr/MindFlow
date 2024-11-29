@@ -1,3 +1,9 @@
+/*FONTS*/
+/*Headings*/
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 /*COLOR PALETTE*/
 :root {
     --olive-green: rgb(106, 94, 51);
@@ -14,9 +20,74 @@
     --deep-brown: rgb(84, 43, 36);
     --white: rgb(255, 255, 255);
     --black: rgb(0, 0, 0);
-  }
 
+    --big-headings: 10vh;
+    --small-headings: 8vh;
+
+    --items-margin: 0.5%;
+    --items-padding: 5%;
+    --top-margin: 5%;
+
+    --border-radius: 15px;
+    --section-divider: 10px;
+
+    --text-box-size: 3vh;
+
+    --light-white-button-bg: rgba(255, 255, 255, 0.1);
+    --darker-white-button-bg: rgba(255, 255, 255, 0.3)
+}
+
+/*MAIN STYLING*/
 html, body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p, a{
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+/*BUTTONS*/
+.button {
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+.button:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.button:hover::after {
+    opacity: 1;
 }

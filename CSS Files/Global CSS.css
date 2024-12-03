@@ -34,7 +34,10 @@
     --text-box-size: 3vh;
 
     --light-white-button-bg: rgba(255, 255, 255, 0.1);
-    --darker-white-button-bg: rgba(255, 255, 255, 0.3)
+    --darker-white-button-bg: rgba(255, 255, 255, 0.3);
+
+    --light-blue-button-bg: rgba(57, 74, 92, 0.5);
+    --darker-blue-button-bg: rgba(57, 74, 92, 0.7);
 }
 
 /*MAIN STYLING*/
@@ -62,7 +65,7 @@ a:hover{
 
 /*BUTTONS*/
 .button {
-    color: white;
+    color: var(--beige);
     border: none;
     border-radius: 40px;
     padding: 10px 20px;
@@ -72,7 +75,7 @@ a:hover{
 }
 
 .button:hover {
-    color: white;
+    color: var(--beige);
     font-weight: bold;
 }
 

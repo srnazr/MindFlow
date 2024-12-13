@@ -1,4 +1,75 @@
+/*NAV*/
+.nav-style{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(255,255, 255, 0);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    margin-top: -10px;
+    padding: 2vh;
+}
 
+.nav-style.transparent {
+    background-color: rgba(204, 193, 165, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.hidden-nav-section{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.visible-nav-section{
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-items-left{
+    width: 50vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 6%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.nav-items-left h2{
+    margin-top: 25px;
+    color: var(--beige);
+    font-weight: normal;
+    font-style: italic;
+}
+
+.nav-items-right{
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.color-settings-2 {
+    background-color: var(--light-blue-button-bg);
+    margin-right: 10px;
+}
+
+.color-settings-2 a {
+    color:white;
+}
+
+.color-settings-2::after {
+    border: 3px solid var(--darker-blue-button-bg); 
+}
 
 /*FOOTER*/
 .footer{

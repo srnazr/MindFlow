@@ -30,6 +30,7 @@ toggleButton.addEventListener('click', () => {
     toggleButton.textContent = 'Log in';
     actionButton.textContent = 'Sign up'; 
     actionButton.style.backgroundColor = 'var(--deep-brown)';
+    deco.style.borderColor = 'var(--deep-brown)';
     actionButton.setAttribute('type', 'submit'); 
 
     // Update Signup Form

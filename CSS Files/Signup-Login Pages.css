@@ -1,0 +1,194 @@
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: var(--beige);
+}
+
+.nav-style{
+    padding-top: 1.5%;
+}
+
+.user-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: var(--beige);
+    border-bottom: 5px solid var(--light-gray);
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    transition: transform 0.8s ease-in-out;
+    position: relative;
+}
+
+.colored-section{
+    background-color: var(--olive-green);
+    color: var(--beige);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0 var(--items-padding);
+    height: 100%;
+}
+
+.section-2{
+    padding: var(--items-padding);
+}
+
+#toggle-button{
+   background-color: var(--beige);
+   color: var(--olive-green);
+   width: 20%;
+}
+
+#toggle-button::after{
+    border: 3px solid var(--beige); 
+}
+
+#text-box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+#text-box-1 h1{
+    font-size: var(--small-headings);
+}
+
+#text-box-2{
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-items: space-evenly;
+}
+
+#text-box-2 h3{
+    font-size: 5vh;
+    color: var(--deep-brown);
+}
+
+.underline{
+    margin-top: -5%;
+    border: 1px solid var(--deep-brown);
+    margin-bottom: var(--items-margin);
+    width: 100%;
+}
+
+.signup-login-form{
+    margin-top: var(--items-margin);
+    margin-bottom: var(--items-margin);
+    font-family: 'Afacad Flux', sans-serif;
+    color: var(--brown);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-login-form label{
+    font-size: var(--label-size);
+}
+
+.signup-login-form input{
+    padding: var(--input-padding);
+    margin-top: var(--input-margin);
+    margin-bottom: 2%;
+    background-color: rgba(232, 228, 212, 0.3);
+    border: none;
+    width: 92%;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.line .items{
+    width: 60%;
+    margin: 0;
+}
+
+.line .items label{
+    font-size: var(--label-size);
+}
+
+.line .items input{
+    width: 85%;
+    padding: 5%;
+}
+
+.line .items select{
+    width: 95%;
+    padding: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: rgba(232, 228, 212, 0.3);
+    border: none;
+}
+
+.line .items option{
+    color: gray;
+}
+
+.line .items select:hover{
+    cursor: pointer;
+}
+
+.tos{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tos label{
+    font-size: 1rem;
+    width: 100%;
+    margin-left: -30%;
+    margin-bottom: 2%;
+}
+
+.tos input{
+    margin-left: -42%;
+    margin-right: -10%;
+}
+
+.tos input:hover{
+    cursor: pointer;
+}
+
+.tos a{
+    color: var(--deep-brown);
+}
+
+.signup-button{
+    background-color: var(--deep-brown);
+    color: var(--beige);
+    width: 20%;
+}
+
+
+.signup-button::after{
+    border: 3px solid var(--deep-brown); 
+}
+
+.colored-section, .section-2 {
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}

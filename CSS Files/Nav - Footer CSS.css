@@ -58,6 +58,14 @@
     box-sizing: border-box;
 }
 
+.nav-items-right p{
+    color: white;
+}
+
+.nav-items-right p:hover{
+    color: white;
+}
+
 .color-settings-2 {
     background-color: var(--light-blue-button-bg);
     margin-right: 10px;

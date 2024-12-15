@@ -89,7 +89,6 @@ body{
 .signup-login-form{
     margin-top: var(--items-margin);
     margin-bottom: var(--items-margin);
-    font-family: 'Afacad Flux', sans-serif;
     color: var(--brown);
     width: 100%;
     display: flex;
@@ -119,10 +118,6 @@ body{
 .line .items{
     width: 60%;
     margin: 0;
-}
-
-.line .items label{
-    font-size: var(--label-size);
 }
 
 .line .items input{

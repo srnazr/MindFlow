@@ -1,0 +1,240 @@
+body{
+    overflow-x: hidden;
+    background-color: var(--light-gray);
+}
+
+.nav-style{
+    padding-top: 3vh;
+}
+
+.underline{
+    margin-top: -5%;
+    border: 1px solid var(--deep-teal);
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: var(--items-margin);
+}
+
+.left-section, .right-section{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+.left-section{
+    background-color: var(--dark-blue);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.text, .image, .logo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 40%;
+    font-size: 5vh;
+    color: var(--pale-teal);
+    line-height: 15vh;
+    padding: var(--items-padding);
+    margin: 0;
+}
+
+.text-color{
+    color: var(--deep-teal);
+    border-bottom: dotted 10px var(--deep-teal)
+}
+
+.image{
+    display:block;
+    height: 60%;
+    background-image: url('/Image Assets/Contact Page/Big Circles.png');
+    background-size: cover;
+    background-repeat: none;
+    background-position: fixed;
+    margin-top: -10%;
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-items: center;
+    width: 80%;
+    padding: var(--items-padding);
+}
+
+.form-info h1{
+    font-size: var(--small-headings);
+    color: var(--deep-teal);
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    justify-items: center;
+    margin-bottom: var(--items-margin);
+}
+
+.line .items{
+    width: 60%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-info label{
+    font-size: var(--label-size);
+    color: var(--dark-blue);
+}
+
+.form-info input{
+    padding: 5%;
+    background-color: rgba(232, 228, 212, 0.3);
+    border: none;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-box textarea{
+    padding: 1% 2%;
+    background-color: rgba(232, 228, 212, 0.3);
+    border: none;
+    margin-bottom: 5%;
+}
+
+.submit-button{
+    background-color: var(--deep-teal);
+    color: var(--pale-teal);
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-bottom: 7%;
+}
+
+.submit-button:hover{
+    color: var(--pale-teal);
+}
+
+.submit-button::after{
+    border: 3px solid var(--deep-teal); 
+}
+
+h6{
+    color: var(--deep-teal);
+    margin-bottom: -2%;
+}
+
+p{
+    color: var(--charcoal-gray);
+}
+
+footer p{
+    color: var(--beige);
+}
+
+@media (max-width: 950px) {
+    .container {
+        flex-direction: column; 
+        align-items: stretch;  
+        height: auto;        
+    }
+
+    .left-section, .right-section {
+        width: 100%;                 
+    }
+
+    .left-section{
+        height: auto;
+    }
+
+    .right-section{
+        height: auto;
+    }
+
+    .left-section {
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 0;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .text {
+        font-size: 3vh;      
+        line-height: 10vh;
+        text-align: center;
+    }
+
+    .form-info {
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vh;
+        padding: 0;     
+        width: 100%;        
+    }
+
+    .underline{
+        display: none;
+    }
+
+    .form-info h1 {
+        margin-top: 1vh;
+        font-size: 5vh;
+        text-align: center;  
+    }
+
+    .form-info .line {
+        flex-direction: column;
+        gap: 15px;            
+    }
+
+    .form-info .items {
+        width: 95%;
+        padding: 0 10px;     
+    }
+
+    .text-box label{
+        margin-left: 10px;
+    }
+
+    .text-box textarea{
+        margin: 0 10px;
+    }
+
+    .submit-button {
+        margin: 20px auto;  
+        width: auto;        
+        padding: 10px 20px; 
+    }
+
+    .nav-items-left img{
+        display: none
+    }
+}

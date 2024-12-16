@@ -213,44 +213,53 @@ button {
 }
 
 @media (max-width: 950px) {
-    body{
+    body {
         background-color: var(--light-gray);
     }
 
-    .nav-style.transparent{
+    .nav-style.transparent {
         background-color: rgba(77, 77, 77, 0.1);
         backdrop-filter: blur(5px);
+        padding: 15px;
     }
     
-    .nav-items-left h2{
+    .nav-items-left h2 {
         margin-top: 25px;
         color: var(--dark-blue);
         font-weight: normal;
         font-style: italic;
+        text-align: center;
     }
 
-    .nav-logo{
+    .nav-logo {
         display: none;
     }
 
-    .colored-section{
+    .colored-section {
         display: none;
     }
     
     .user-container {
         background-color: var(--light-gray);
         flex-direction: column;
-        margin-left: -2vw;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
         height: auto;
         width: 100%;
+        padding-right: 10%;
     }
 
-    .underline{
-        border-color: var(--deep-brown);
+    .underline {
+        display: none;
     }
 
     .section {
         width: 100%;
+        max-width: 500px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
     }
 
     .colored-section, .section-2 {
@@ -258,38 +267,88 @@ button {
         height: auto;
     }
 
-    .signup-login-form input {
+    #text-box-1, #text-box-2 {
         width: 100%;
+        align-items: center;
+        text-align: center;
     }
 
+    .signup-login-form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .signup-login-form input, 
     .or-login-section input {
         width: 100%;
+        max-width: 400px;
+    }
+
+    .line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .line .items {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 15px;
+    }
+
+    .line .items input,
+    .line .items select {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .signup-button, 
+    #toggle-button {
+        width: auto;
+        min-width: 150px;
+        padding: 10px 20px;
+        align-self: center;
     }
 
     .or-login-section {
         display: flex;
-        text-align: left;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
         flex-direction: column;
-        align-content: flex-start;
-        justify-items: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+        padding: 15px 0;
     }
 
-    .or-login-section p{
+    .or-login-section p {
         color: var(--olive-green);
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .tos {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
-@media (max-width: 750px){
-    .nav-style p{
+@media (max-width: 750px) {
+    .nav-style p {
+        font-size: 12px;
+    }
+
+    #text-box-1 h1 {
+        font-size: 24px;
+    }
+
+    #text-box-2 h3 {
+        font-size: 20px;
+    }
+
+    .tos .item-2{
+        margin-left: -30%;
         font-size: 10px;
     }
-
-    .nav-logo {
-        display: none;
-    }
-
-    .signup-button{
-        width: auto;
-    }
-
 }

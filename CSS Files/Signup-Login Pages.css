@@ -278,3 +278,18 @@ button {
         color: var(--olive-green);
     }
 }
+
+@media (max-width: 750px){
+    .nav-style p{
+        font-size: 10px;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .signup-button{
+        width: auto;
+    }
+
+}

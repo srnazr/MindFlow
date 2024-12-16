@@ -614,7 +614,6 @@ body {
 
     .features-section {
         height: auto;
-        margin: 0 2vw 5vh;
         border-width: 3px;
     }
 
@@ -640,7 +639,7 @@ body {
     }
 
     .mindflow-card-container {
-        min-height: 70vh;
+        min-height: 50vh;
         padding: 3vh 0;
     }
 
@@ -698,6 +697,5 @@ body {
 
     .journey-overview p {
         font-size: 2vh;
-        max-width: 90vw;
     }
 }

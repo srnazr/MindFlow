@@ -63,7 +63,7 @@ body{
 .image{
     display:block;
     height: 60%;
-    background-image: url('/Image Assets/Contact Page/Big Circles.png');
+    background-image: url("../Image Assets/Contact Page/Big Circles.png");
     background-size: cover;
     background-repeat: none;
     background-position: fixed;

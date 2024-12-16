@@ -525,7 +525,7 @@ body {
 @media (max-width: 750px) {
 
     .nav-style p{
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .nav-logo {
@@ -596,7 +596,7 @@ body {
     .features-section {
         height: auto;
         border-width: 3px;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
     }
 
     .mindflow-card-container {
@@ -664,7 +664,7 @@ body {
     .journey-section {
         flex-direction: column;
         height: auto;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
     }
 
     .journey-video, .journey-overview {

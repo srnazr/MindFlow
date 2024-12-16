@@ -190,7 +190,6 @@ body {
     text-decoration: underline;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
     .small-displays{
         display: flex;

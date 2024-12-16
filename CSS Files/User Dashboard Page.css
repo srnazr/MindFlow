@@ -224,4 +224,12 @@ body {
     .d-md-inline {
         display: none !important;
     }
+
+    .add-items h6{
+        display: none;
+    }
+
+    .custom-margin{
+        margin-bottom: 2%;
+    }
 }

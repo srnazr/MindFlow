@@ -613,7 +613,7 @@ body {
     .features-section {
         height: auto;
         border-width: 3px;
-        margin: 0; 
+        margin-bottom: var(--items-margin); 
     }
 
     .mindflow-card-container {
@@ -681,7 +681,7 @@ body {
     .journey-section {
         flex-direction: column;
         height: auto;
-        margin: 0; /* Remove margin between features and journey */
+        margin-bottom: var(--items-margin);
     }
 
     .journey-video, .journey-overview {

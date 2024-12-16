@@ -523,26 +523,9 @@ body {
 
 
 @media (max-width: 750px) {
-   .nav-items-right p{
-    font-size: 15px;
-   }
-   
-    .nav-style {
-        padding-top: 2vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .nav-items-right {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .nav-items-right a {
-        font-size: 10px;
-        margin: 0 10px;
+    .nav-style p{
+        font-size: 15px;
     }
 
     .nav-logo {
@@ -613,7 +596,7 @@ body {
     .features-section {
         height: auto;
         border-width: 3px;
-        margin-bottom: var(--items-margin); 
+        margin-bottom: 5%;
     }
 
     .mindflow-card-container {
@@ -681,7 +664,7 @@ body {
     .journey-section {
         flex-direction: column;
         height: auto;
-        margin-bottom: var(--items-margin);
+        margin-bottom: 5%;
     }
 
     .journey-video, .journey-overview {

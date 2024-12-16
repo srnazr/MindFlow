@@ -523,6 +523,10 @@ body {
 
 
 @media (max-width: 750px) {
+   .nav-items-right p{
+    font-size: 15px;
+   }
+   
     .nav-style {
         padding-top: 2vh;
         display: flex;
@@ -539,12 +543,6 @@ body {
     .nav-items-right a {
         font-size: 10px;
         margin: 0 10px;
-    }
-
-    .nav-items-left h2 {
-        color: var(--pale-teal);
-        text-align: center;
-        margin-bottom: 10px;
     }
 
     .nav-logo {
@@ -615,6 +613,13 @@ body {
     .features-section {
         height: auto;
         border-width: 3px;
+        margin: 0; 
+    }
+
+    .mindflow-card-container {
+        min-height: auto; 
+        padding: 3vh 0;
+        background-color: var(--deep-teal);
     }
 
     .images img:first-child {
@@ -639,16 +644,17 @@ body {
     }
 
     .mindflow-card-container {
-        min-height: 50vh;
+        min-height: auto; 
         padding: 3vh 0;
     }
 
     .mindflow-card-list {
         display: flex;
         align-items: center;
+        width: 100%;
     }
 
-    .button-deco{
+    .button-deco {
         display: none;
     }
 
@@ -675,6 +681,7 @@ body {
     .journey-section {
         flex-direction: column;
         height: auto;
+        margin: 0; /* Remove margin between features and journey */
     }
 
     .journey-video, .journey-overview {

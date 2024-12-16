@@ -12,7 +12,10 @@ new Swiper('.mindflow-card-wrapper', {
       0:{
         slidesPerView: 1
       },
-      768:{
+      750:{
+        slidesPerView: 1
+      },
+      950:{
         slidesPerView: 3
       },
       1024:{

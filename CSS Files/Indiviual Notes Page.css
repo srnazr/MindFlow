@@ -77,7 +77,7 @@ body {
     padding: var(--items-padding);
     height: auto;
     width: 100%;
-    background-image: url('/Image Assets/User Profile Pics/download.gif');
+    background-image: url("../Image Assets/User Profile Pics/download.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -173,7 +173,7 @@ input[type="checkbox"]:hover{
 .side-image-1{
     width: 30%;
     height: 35vh;
-    background-image: url('/Image Assets/User Profile Pics/side-img-1.jpg');
+    background-image: url("../Image Assets/User Profile Pics/side-img-1.jpg");
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@ input[type="checkbox"]:hover{
 .side-image-2{
     width: 30%;
     height: 35vh;
-    background-image: url('/Image Assets/User Profile Pics/side-img-2.jpg');
+    background-image: url("../Image Assets/User Profile Pics/side-img-2.jpg");
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;

@@ -522,100 +522,181 @@ body {
 }
 
 
-@media (max-width: 750px){
-    .nav-style{
+@media (max-width: 750px) {
+    .nav-style {
         padding-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .nav-items-right a{
-        font-size: 1vh;
+    .nav-items-right {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
-    .nav-items-left h2{
+    .nav-items-right a {
+        font-size: 2vh;
+        margin: 0 10px;
+    }
+
+    .nav-items-left h2 {
         color: var(--pale-teal);
+        text-align: center;
+        margin-bottom: 10px;
     }
 
-    .nav-logo{
+    .nav-logo {
         display: none;
     }
 
-    .website-overview{
-        width: 100vw;
+    #landing-section {
+        flex-direction: column;
+    }
+
+    .website-overview {
+        width: 100%;
         height: auto;
-        border-radius: var(--border-radius);
+        padding: 5vh var(--items-padding);
+        text-align: center;
     }
 
-    .banner-image{
+    .banner-image {
         display: none;
     }
 
-    .web-title h1{
-        font-size: 5vh;
-        margin-bottom: 10vh;
+    .web-title {
+        height: 50vh;
+        background-size: cover;
     }
 
-    .web-info{
+    .web-title h1 {
+        font-size: 4vh;
+        margin-bottom: 5vh;
+    }
+
+    .web-info {
         margin-top: 0;
+        max-width: 90vw;
+        padding: 0 5vw;
     }
 
-    .infinite-slider{
-        height: 20vh;
+    .infinite-slider {
+        height: 15vh;
+        margin-bottom: 5vh;
     }
 
-    .item-text{
-        font-size: 100%;
+    .wrapper-1 {
+        width: 95%;
+        height: 15vh;
+        margin-top: 1vh;
     }
 
     @keyframes scrollleft {
         0% {
-            left: 250%; 
+            left: 300%; 
         }
         100% {
-            left: -100%; 
+            left: -150%; 
         }
     }
 
     .item {
-        height: 100px;
-        width: 200px; 
+        height: 80px;
+        width: 180px;
+        margin-right: 5vw;
     }
 
-    .squiggle-display{
-        display: none;
+    .item-text {
+        font-size: 90%;
+        line-height: 1.2;
     }
 
-    .features-section{
-        height: 110vh;
+    .features-section {
+        height: auto;
+        margin: 0 2vw 5vh;
+        border-width: 3px;
     }
 
-    .features-title{
-        font-size: 2.5rem;
-        max-width: 70vw;
+    .images img:first-child {
+        left: -30%;
+        transform: translateY(-50%) scale(0.2);
     }
 
-    .features-text{
-        font-size:1.25rem;
+    .images img:nth-child(2) {
+        right: -30%;
+        transform: translateY(-50%) scale(0.3);
     }
 
-    .mindflow-card-list .mindflow-card-item .mindflow-card-link{
-        margin-top: 5vh;
-        width: 35vw;
-        height: 30vh;
+    .features-title {
+        font-size: 2rem;
+        max-width: 90vw;
+        margin-top: 3vh;
     }
 
-    .mindflow-card-list .mindflow-card-item .mindflow-card-link:hover{
-        width: 35.5vw;
+    .features-text {
+        font-size: 1rem;
+        max-width: 90vw;
     }
 
-    .journey-overview{
-        padding: var(--items-padding);
+    .mindflow-card-container {
+        min-height: 70vh;
+        padding: 3vh 0;
     }
 
-    .journey-overview h1{
-        font-size: 3vh;
+    .mindflow-card-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .journey-overview p{
+    .mindflow-card-list .mindflow-card-item .mindflow-card-link {
+        margin-top: 3vh;
+        width: 80vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mindflow-card-list .mindflow-card-item .mindflow-card-link:hover {
+        width: 82vw;
+    }
+
+    .mindflow-card-list .mindflow-card-link .mindflow-card-image {
+        width: 60%;
+        max-height: 50%;
+        object-fit: contain;
+    }
+
+    .journey-section {
+        flex-direction: column;
+        height: auto;
+        margin: 0 2vw 5vh;
+    }
+
+    .journey-video, .journey-overview {
+        width: 100%;
+    }
+
+    .journey-video {
+        height: 50vh;
+    }
+
+    .journey-overview {
+        padding: 5vh var(--items-padding);
+        text-align: center;
+    }
+
+    .journey-overview h1 {
+        font-size: 2.5vh;
+        max-width: 90vw;
+    }
+
+    .journey-overview p {
         font-size: 2vh;
+        max-width: 90vw;
     }
 }

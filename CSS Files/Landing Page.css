@@ -62,7 +62,7 @@ body {
 
 .banner-image {
     position: relative;
-    background-image: url("../Image%20Assets/Landing%20Page/laptop-with-notes.jpg");
+    background-image: url("../Image Assets/Landing Page/laptop-with-notes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -446,6 +446,10 @@ body {
         display: none;
     }
 
+    .web-title{
+        height: 90vh;
+    }
+
     .web-title h1{
         font-size: 5vh;
         margin-bottom: 10vh;
@@ -461,6 +465,105 @@ body {
 
     .item-text{
         font-size: 120%;
+    }
+
+    @keyframes scrollleft {
+        0% {
+            left: 250%; 
+        }
+        100% {
+            left: -100%; 
+        }
+    }
+
+    .item {
+        height: 100px;
+        width: 200px; 
+    }
+
+    .squiggle-display{
+        display: none;
+    }
+
+    .features-section{
+        height: 110vh;
+    }
+
+    .features-title{
+        font-size: 2.5rem;
+        max-width: 70vw;
+    }
+
+    .features-text{
+        font-size:1.25rem;
+    }
+
+    .mindflow-card-list .mindflow-card-item .mindflow-card-link{
+        margin-top: 5vh;
+        width: 35vw;
+        height: 30vh;
+    }
+
+    .mindflow-card-list .mindflow-card-item .mindflow-card-link:hover{
+        width: 35.5vw;
+    }
+
+    .journey-overview{
+        padding: var(--items-padding);
+    }
+
+    .journey-overview h1{
+        font-size: 3vh;
+    }
+
+    .journey-overview p{
+        font-size: 2vh;
+    }
+}
+
+
+@media (max-width: 750px){
+    .nav-style{
+        padding-top: 4vh;
+    }
+
+    .nav-items-right a{
+        font-size: 1vh;
+    }
+
+    .nav-items-left h2{
+        color: var(--pale-teal);
+    }
+
+    .nav-logo{
+        display: none;
+    }
+
+    .website-overview{
+        width: 100vw;
+        height: auto;
+        border-radius: var(--border-radius);
+    }
+
+    .banner-image{
+        display: none;
+    }
+
+    .web-title h1{
+        font-size: 5vh;
+        margin-bottom: 10vh;
+    }
+
+    .web-info{
+        margin-top: 0;
+    }
+
+    .infinite-slider{
+        height: 20vh;
+    }
+
+    .item-text{
+        font-size: 100%;
     }
 
     @keyframes scrollleft {
